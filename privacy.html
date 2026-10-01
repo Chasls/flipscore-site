@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · FlipScore</title>
+<meta name="description" content="How FlipScore handles information.">
+<meta property="og:title" content="Privacy Policy · FlipScore">
+<meta property="og:description" content="How FlipScore handles information.">
+<meta property="og:image" content="assets/craigslist-badges.png">
+<link rel="icon" href="assets/icon32.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="index.html"><img src="assets/icon128.png" alt="">FlipScore</a>
+  <div class="links">
+    <a class="hide-sm" href="index.html#features">Features</a>
+    <a class="hide-sm" href="index.html#pro">Pro</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="index.html#faq">FAQ</a>
+  </div>
+</div></nav>
+<main class="doc"><h1 id="flipscore-privacy-policy">FlipScore Privacy Policy</h1>
+<p><em>Effective October 1, 2026</em></p>
+<p>FlipScore is a Chrome extension that checks what a Facebook Marketplace, Craigslist, or OfferUp listing sells for elsewhere. It works inside your browser. <strong>There is no FlipScore server: what you look at, watch, track, and buy stays on your computer.</strong> The one exception is FlipScore Pro: if you buy it, the purchase is handled by Lemon Squeezy, and your license key is checked with them (see <a href="#flipscore-pro">FlipScore Pro</a>). We never sell or share data.</p>
+<h2 id="what-flipscore-reads">What FlipScore reads</h2>
+<p>FlipScore only reads pages on the sites it supports, and only to do its job:</p>
+<ul><li><strong>Listing pages</strong> (Facebook Marketplace, Craigslist, OfferUp): the listing's title, asking price, photo, location, ID, and address (URL). It reads these when the FlipScore side panel is open on the listing, and when you visit a listing on your watchlist, so the watched price can be updated.</li><li><strong>Watched Craigslist and OfferUp listings, in the background</strong>: every few hours FlipScore reloads the page of each Craigslist or OfferUp listing on your watchlist to check its price and whether it's still up. This sends a normal request for that listing page from your browser to Craigslist or OfferUp, like reopening it yourself. You can turn this off under Settings. Facebook listings are never loaded in the background.</li><li><strong>Search result pages</strong> (Facebook Marketplace, Craigslist): the title and price of the results you stop on, to show sold-price badges. You can turn this off under Settings in the side panel.</li><li><strong>Saved Craigslist searches</strong> (Pro deal alerts): about once an hour, FlipScore loads the results page of each Craigslist search you saved, and looks up sold prices for listings it hasn't seen before. Remove a search in the side panel to stop this.</li></ul>
+<p>FlipScore does not read your messages, profile, friends, or any page outside those sites.</p>
+<h2 id="what-flipscore-sends-and-to-whom">What FlipScore sends, and to whom</h2>
+<p>To find sold prices, FlipScore turns a listing's title into a short search (for example, "Nintendo Switch OLED") and looks it up <strong>directly from your browser</strong> on:</p>
+<ul><li><strong>eBay</strong> (sold and active listings)</li><li><strong>PriceCharting</strong> (only for games, consoles, trading cards, LEGO, Funko and comics)</li><li><strong>Swappa</strong> (only for phones, tablets, laptops and watches)</li></ul>
+<p>These are ordinary requests from your browser, like visiting those sites yourself, so those sites can see your IP address and browser type, and may see cookies you have with them. Their own privacy policies apply. FlipScore sends them only the search words: not the listing's address, your location, or anything about you.</p>
+<p>For Pro users, FlipScore also re-checks the eBay sold price of watched items about once a day in the background, the same kind of search.</p>
+<p>The side panel also shows listing photos, which your browser loads from the listing site's own image servers.</p>
+<h2 id="what-flipscore-stores">What FlipScore stores</h2>
+<p>Everything is saved only on your computer, in Chrome's extension storage:</p>
+<ul><li>your watchlist (listing title, price, photo, address, and price history)</li><li>your settings (fees % or fee profile, whether search badges and background checks are on)</li><li>recent search results, kept for up to 6 hours so sites aren't asked twice</li><li>the daily eBay sold price for searches you've made (for price trends)</li><li>Pro: your saved Craigslist searches and deals found, and your flip tracker (what you bought and sold, for how much, and any notes you add)</li><li>Pro: your license key and the email address Lemon Squeezy returns for it</li><li>a short log of whether each site could be read recently, used to warn you when a site has changed its layout (see below)</li></ul>
+<p>Nothing is synced to other devices or sent to us. Removing the extension deletes all of it. Exporting your watchlist or flip tracker to CSV, or downloading a backup from Settings, saves a file you control. A backup file holds your watchlist, flips, saved searches, price history, and settings (not your Pro license key); it never leaves your computer unless you move it.</p>
+<h2 id="flipscore-pro">FlipScore Pro</h2>
+<p>Pro is sold through <strong>Lemon Squeezy</strong>, which handles checkout, payment, the subscription, and sales tax as the merchant of record. When you buy Pro, Lemon Squeezy collects your payment details under <a href="https://www.lemonsqueezy.com/privacy">its own privacy policy</a> and shares your name, email address, and order with us as the seller, which we use only to provide Pro, answer support requests, and keep the records the law requires. We never see your card details.</p>
+<p>To turn Pro on, FlipScore sends your license key to Lemon Squeezy's license service, along with a label for this computer ("FlipScore on Chrome/…"). About once a day it checks the key again so a cancelled subscription turns Pro off. Deactivating Pro in the side panel tells Lemon Squeezy to free that computer's activation. Nothing else is sent: not your watchlist, flips, or browsing.</p>
+<h2 id="problem-reports">Problem reports</h2>
+<p>When a site changes its layout and FlipScore can't read it, the side panel tells you and offers a <strong>Report a problem</strong> link. The link opens your own email app with a message already filled in, which you can read and edit before choosing to send it. The message contains only:</p>
+<ul><li>the FlipScore version and your browser version</li><li>which checks recently passed or failed (for example, "eBay sold prices: failing — 0 readable results"), with times</li></ul>
+<p>It does not include listing addresses, page contents, or your watchlist. Nothing is sent unless you send the email yourself. If you do, we use it only to fix FlipScore and reply to you.</p>
+<h2 id="what-flipscore-doesn-t-do">What FlipScore doesn't do</h2>
+<ul><li>No accounts, sign-ins, or passwords (Pro uses a license key)</li><li>No analytics, tracking, or advertising</li><li>No selling or sharing of data, ever</li><li>No collecting of financial, health, or location information; the only personal details we receive are a Pro buyer's name and email, from Lemon Squeezy</li></ul>
+<p>FlipScore's use of information follows the <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq">Chrome Web Store User Data Policy</a>, including the Limited Use requirements.</p>
+<h2 id="children">Children</h2>
+<p>FlipScore isn't directed at children under 13 and doesn't knowingly collect information from anyone.</p>
+<h2 id="changes">Changes</h2>
+<p>If FlipScore ever starts handling data differently, we'll update this policy and its effective date first, and ask for your consent where the law or the Chrome Web Store requires it.</p>
+<h2 id="contact">Contact</h2>
+<p>Questions or requests: <strong>chasstevens1219@gmail.com</strong> </p></main>
+<footer><div class="wrap">
+  <span>© 2026 FlipScore</span>
+  <a href="privacy.html">Privacy</a>
+  <a href="terms.html">Terms &amp; refunds</a>
+  <a href="mailto:chasstevens1219@gmail.com">Contact: chasstevens1219@gmail.com</a>
+  <span class="sp">Not affiliated with eBay, Facebook, Craigslist, or OfferUp.</span>
+</div></footer>
+</body>
+</html>
